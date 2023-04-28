@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 use clap::Parser;
 use std::time::Duration;
 use tokio::net::{windows::named_pipe::ClientOptions, TcpListener, TcpStream};
